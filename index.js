@@ -1,3 +1,18 @@
+// added this from the Azure template github repo
+const http = require('http');
+
+const server = http.createServer((request, response) => {
+    response.writeHead(200, {"Content-Type": "text/plain"});
+    response.end("Hello World!");
+});
+
+const port = process.env.PORT || 1337;
+server.listen(port);
+
+console.log("Server running at http://localhost:%d", port);
+//-------------------------------------
+
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');

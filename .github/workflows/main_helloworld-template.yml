@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'helloworld-template'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_86458cd860c74754ac877868e1109da4 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0a0de9cee27645a8b016dad376d6802d }}
         package: .
